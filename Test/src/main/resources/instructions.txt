@@ -1,0 +1,12 @@
+INSTRUCTIONS
+
+1) Execute the build ("mvn clean install") from the folder /Test/Test where the pom.xml
+ is located.
+ 
+2) Go to /Test/Test/target and execute the following command to launch the Spring
+Boot app:
+
+java -jar test-0.0.1-SNAPSHOT.jar
+
+
+

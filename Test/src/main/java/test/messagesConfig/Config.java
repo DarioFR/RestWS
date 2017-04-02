@@ -11,6 +11,7 @@ public class Config {
 	public ResourceBundleMessageSource messageSource() {
 		ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
 		messageSource.setBasename("classpath:messages");
+		messageSource.setUseCodeAsDefaultMessage(true);
 		return messageSource;
 	}
 
